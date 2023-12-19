@@ -1036,9 +1036,10 @@
 
         <div class="mt-16 flex items-center flex-wrap gap-4" style="justify-content: center;">
             <div class="flex items-center flex-wrap gap-2">
-                <img src="{{asset("assets/images/carts/visa.png")}}" style="height: 20px; width: auto;"/>
-                <img src="{{asset("assets/images/carts/master.png")}}" style="height: 20px; width: auto;"/>
-{{--                <img src="{{asset("assets/images/carts/esaad.jpg")}}" style="height: 20px; width: auto;"/>--}}
+                <img src="{{asset("assets/images/carts/visanew.png")}}"/>
+                <img src="{{asset("assets/images/carts/mastercard.png")}}" />
+                <img src="{{asset("assets/images/carts/esadcardnew.png")}}"/>
+{{--                <img src="{{asset("assets/images/carts/esaad.png")}}"/>--}}
             </div>
         </div>
 
