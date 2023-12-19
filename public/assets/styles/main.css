@@ -1,0 +1,129 @@
+body {
+    font-family: 'IBM Plex Sans', 'Arial', sans-serif;
+}
+
+@keyframes spinWords {
+  10% {
+    transform: translateY(-104%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  35% {
+    transform: translateY(-204%);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+  60% {
+    transform: translateY(-304%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+  85% {
+    transform: translateY(-404%);
+  }
+  100% {
+    transform: translateY(-400%);
+  }
+}
+
+.registration-modal{
+    width: 50%;
+}
+.registration-modal-form{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.product-div-img {
+    height: 243px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .registration-modal{
+        width: 100%;
+    }
+    .registration-modal-form{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .registration-modal{
+        width: 100%;
+    }
+    .registration-modal-form{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+     .registration-modal{
+        width: 50%;
+    }
+    .registration-modal-form{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+     .registration-modal{
+        width: 50%;
+    }
+    .registration-modal-form{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+     .registration-modal{
+        width: 50%;
+    }
+    .registration-modal-form{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.whatsapp-button{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99;
+    background-color: #25d366;
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    animation: effect 5s infinite ease-in;
+}
+
+/*# sourceMappingURL=main.css.map */
+
